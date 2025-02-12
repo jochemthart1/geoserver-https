@@ -152,7 +152,7 @@ For our purposes we have two bits of complexity to deal with:
 we want to replace the palceholder `${DOMAIN}` with our map domain. To do that, run the script [make-nginx-config.sh](./make-nginx-config.sh)
 
 ```sh
-make-nginx-config.sh
+./make-nginx-config.sh
 ```
 
 This will prompt you to enter your domain, e.g. 'map.fakedomain.com', without the quotes, or any leading or trailing spaces.
