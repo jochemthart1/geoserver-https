@@ -92,6 +92,7 @@ sudo chmod -R 777 geoserver-https/
 #### Setup environment variables
 
 `cd geoserver-https`
+
 This will create a copy of the .env template for you: `cp .env .env.production`
 
 You then need to fill in your real production keys. Below will open the nano text editor for you to do that. press control + x to save and exit, then hit y and enter when prompted to confirm.
