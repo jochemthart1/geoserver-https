@@ -176,7 +176,6 @@ This will do everything except get the certificates for real. This is so we can 
 We want to run:
 
 ```sh
-git clone git@github.com:docker-library/tomcat.git
 docker compose -f docker-compose-staging.yml --env-file .env.production up
 ```
 
